@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("javatest","ログへの出力テスト");
 
+Human human= new Human("トム",18);
 
+        human.say();
     }
 }
